@@ -27,9 +27,9 @@ Python, MongoDB
 - In this approach, we recommend items that are liked by most users. This is a blazing fast and dirty approach and thus has a major drawback. The things are, there is no personalization involved with this approach. Such methods are widely used in news portals and work effectively because of the following points<br>
 - There is division by section so the user can look at the section of his interest.<br>
 -  At a time there are only a few hot topics and there is a high chance that a user wants to read the news which is being read by most others
-<br>
+
 ### Collaborative Based Recommendation System:
-#### User-Based Collaborative Filtering 
+- User-Based Collaborative Filtering 
 - Here we find lookalike customers (based on similarity) and offer products which the first customer’s look-alike has chosen in the past. This algorithm is very effective but takes a lot of time and resources. It requires compute every customer pair information which takes time. Therefore, for big base platforms, this algorithm is hard to implement without a very strong parallelizable system.<br>
 - Build a matrix of things each user bought viewed rated<br>
 - compute similarity scores between users<br>
